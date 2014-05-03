@@ -1,15 +1,15 @@
 
 <!-- include polymer -->
-<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../polymer/polymer.html">
 
 <!-- include prism -->
-<script src="../bower_components/prismjs/prism.js"></script>
+<script src="../prismjs/prism.js"></script>
 
 <!-- element -->
 <polymer-element name="syntax-highlight" extends="pre" attributes="language content">
 
   <!-- style -->
-  <link rel="stylesheet" href="../bower_components/prismjs/prism.css">
+  <link rel="stylesheet" href="../prismjs/prism.css">
 
   <!-- template -->
   <template><code id="content" class="language-{{language}}"></code></template>
