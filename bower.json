@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.2.3",
-    "prismjs": "*"
+    "polymer": "Polymer/polymer#master",
+    "prismjs": "LeaVerou/prism#master"
   }
 }
