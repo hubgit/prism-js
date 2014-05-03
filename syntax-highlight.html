@@ -1,0 +1,32 @@
+
+<!-- include polymer -->
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<!-- include prism -->
+<script src="../bower_components/prismjs/prism.js"></script>
+
+<!-- element -->
+<polymer-element name="syntax-highlight" extends="pre" attributes="language content">
+
+  <!-- style -->
+  <link rel="stylesheet" href="../bower_components/prismjs/prism.css">
+
+  <!-- template -->
+  <template><code id="content" class="language-{{language}}"></code></template>
+
+  <!-- script -->
+  <script>
+  Polymer('syntax-highlight', {
+    language: '*',
+    content: '',
+    contentChanged: function() {
+      this.$.content.innerHTML = content;
+      Prism.highlightElement(this.$.content);
+    },
+    languageChanged: function() {
+      Prism.highlightElement(this.$.content);
+    }
+  });
+  </script>
+
+</polymer-element>

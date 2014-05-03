@@ -1,19 +1,14 @@
 {
-    "name": "prism-js",
+    "name": "syntax-highlight",
     "version": "0.0.2",
     "description": "A Polymer element for syntax highlighting with Prism.js",
-    "author": "Addy Osmani",
+    "author": "Alf Eaton",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/addyosmani/prism-js"
+        "url": "https://github.com/hubgit/syntax-highlight"
     },
     "bugs": {
-        "url": "https://github.com/addyosmani/prism-js/issues"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-connect": "~0.5.0",
-        "grunt-cli": "~0.1.9"
+        "url": "https://github.com/hubgit/syntax-highlight/issues"
     }
 }
