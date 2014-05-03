@@ -23,6 +23,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#master",
-    "prismjs": "LeaVerou/prism#master"
+    "prismjs": "*"
   }
 }
