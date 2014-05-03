@@ -20,7 +20,7 @@
     language: '*',
     content: '',
     contentChanged: function() {
-      this.$.content.innerHTML = content;
+      this.$.content.innerHTML = this.content;
       Prism.highlightElement(this.$.content);
     },
     languageChanged: function() {
