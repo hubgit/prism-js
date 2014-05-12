@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#master",
+    "polymer": "Polymer/polymer#0.2.4",
     "prismjs": "*"
   }
 }
