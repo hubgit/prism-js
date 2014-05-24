@@ -5,13 +5,10 @@
 <!-- include prism -->
 <script src="../prismjs/prism.js"></script>
 
-<!-- style -->
-<link rel="stylesheet" href="../prismjs/prism.css">
-
 <!-- element -->
 <polymer-element name="syntax-highlight" extends="pre" attributes="language content">
   <!-- template -->
-  <template><code id="content" class="language-{{language}}"></code></template>
+  <template><link rel="stylesheet" href="../prismjs/prism.css"><code id="content" class="language-{{language}}"></code></template>
 
   <!-- script -->
   <script>
