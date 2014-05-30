@@ -16,7 +16,7 @@
     language: 'javascript',
     content: '',
     contentChanged: function() {
-      this.$.content.innerHTML = this.content;
+      this.$.content.textContent = this.content;
       Prism.highlightElement(this.$.content);
     },
     languageChanged: function() {
